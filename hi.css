@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Aclonica');
+
+body
+{
+    cursor: none;
+}
+
+#cursor
+{
+    position: absolute;
+    display: none;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-out;
+}
+
