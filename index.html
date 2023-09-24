@@ -3,7 +3,19 @@
   <head>
     <title>GOOD MORNING</title>
   </head>
-  <body>
+  <body style="background-color: black;">
     <h1>HI!</h1>
   </body>
+  <div id="cursor">
+        <img src="6693674.512.webp" height="50px">
+  </div>
 </html>
+
+<script>
+    var cursor = document.getElementById('cursor');
+    document.onmousemove = function(e){
+        cursor.style.left = e.pageX - 25 + "px";
+        cursor.style.top = e.pageY - 25 + "px";
+        cursor.style.display = "block";
+    }
+</script>
